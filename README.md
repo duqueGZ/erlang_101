@@ -10,13 +10,13 @@ Introducción (con ejemplos) a Erlang. Nos centraremos aquí en el subconjunto s
 * Permite reemplazamiento de código "en caliente"
 * Permite la implantación de sistemas distribuidos de forma trasparente
 * Incluye potentes herramientas y librerías para el desarrollador, como OTP.
-* Más (gratuíto y de código abierto, multi-plataforma, bien soportado, fácil de integrar con otras tecnologías, incluye un compilador de alto rendimiento (HiPE), permite el uso de tipado estático (si es necesario), facilita el trabajo con datos binarios gracias a la *Bit syntax*...)
+* Y más... (gratuito y de código abierto, multi-plataforma, bien soportado, fácil de integrar con otras tecnologías, incluye un compilador de alto rendimiento (HiPE), permite el uso de tipado estático (si es necesario), facilita el trabajo con datos binarios gracias a la *Bit syntax*...)
 
 ## 2. Introducción
 - Se trata primordialmente de un lenguaje concurrente.
 - Su subconjunto secuencial es un lenguaje funcional, con evaluación estricta (*eager*), asignación única y tipado dinámico.
 - Originalmente fue un lenguaje propietario de Ericsson. Desde 1998, fue cedido como código abierto.
-- Su nombre se debe al matemático A.K. Erlang, además de corresponderse con la abreviación de **ER**lang **LANG**uage.
+- Su nombre se debe al matemático A.K. Erlang, además de corresponderse con la abreviación de _**ER**lang **LANG**uage_.
 
 ## 3. Instalación y Shell
 * Instalación (Windows)
