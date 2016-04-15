@@ -19,16 +19,14 @@ Introducción (con ejemplos) a Erlang. Nos centraremos aquí en el subconjunto s
 - Su nombre se debe al matemático A.K. Erlang, además de corresponderse con la abreviación de _**ER**lang **LANG**uage_.
 
 ## 3. Instalación y Shell
-* Instalación (Windows)
+* Instalación: http://www.erlang.org/download.html
 * Shell
-    * expresiones aritméticas
+    * expresiones aritméticas (enteros y punto flotante)
     * variables
-    * números de punto flotante
     * atoms
+    * strings [en realidad son listas de enteros]
     * tuplas
     * listas
-    * strings
-    * pattern matching (en más detalle)
 
 ## 4. Programación Secuencial
 * módulos
