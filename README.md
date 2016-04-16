@@ -1,4 +1,4 @@
-# Erlang 101
+# Erlang 101 (Imatia R Team Workshop)
 Introducción (con ejemplos) a Erlang. Nos centraremos aquí en el subconjunto secuencial del lenguaje
 
 ## 1. ¿Por qué Erlang? (http://veldstra.org/whyerlang/)
@@ -40,7 +40,17 @@ Introducción (con ejemplos) a Erlang. Nos centraremos aquí en el subconjunto s
     * En realidad son tuplas con etiquetas para cada uno de los campos.
 * Expresiones Case / If
 * Acumuladores
-    * Son la forma de poder evitar la necesidad de recorrer dos veces la misma lista para, por ejemplo, separar sus elementos en dos grupos.   
+    * Son la forma de poder evitar la necesidad de recorrer dos veces la misma lista para, por ejemplo, separar sus elementos en dos grupos.
+* BIFs: *Built-In Functions* (http://www.erlang.org/doc/man/erlang.html)
+   * Implementadas como operaciones primitivas en la máquina virtual de Erlang.
+   * Suelen servir para hacer cosas imposibles de programar en Erlang.
+* Binaries
+   * Sirven para almacenar grandes cantidades de datos.
+   * Almacenan datos con un consumo de memoria muy eficiente.
+   * El *input* y *output* de binaries es también muy eficiente en Erlang. Se manejan mediante el uso de *BIFs*, o usando *Bit Syntax*.
+* Bit Syntax
+   * Extensión del pattern matching a binaries.
+* Y más...
 
 ## 5. Excepciones
 * exit / throw / erlang:error
@@ -49,10 +59,6 @@ Introducción (con ejemplos) a Erlang. Nos centraremos aquí en el subconjunto s
 * mensajes de error
 * stack traces
 
-## 6. Programación Secuencial Avanzada
-* BIFs
-* Binaries
-* Bit Syntax
-* Otros: apply, atributos, block expressions (begin...end), booleanos, conjunto de caracteres, comentarios, epp (preprocesador), secuencias de escape, secuencias de expresiones, referencias a funciones, inclusión de ficheros, operaciones ++/-- sobre listas, macros, match operator en patrones, números, precedencia de operadores, process dictionary, referencias, comparación de términos, underscore variables
+## 6. Erlang en funcionamiento
 
-## 7. Erlang en funcionamiento
+## 7. Referencias
