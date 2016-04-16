@@ -66,6 +66,9 @@ Introducción (con ejemplos) a Erlang. Nos centraremos aquí en el subconjunto s
 * Stack traces
    * La traza de un error/excepción capturado se obtiene mediante la BIF erlang:get_stacktrace().
 
-## 6. Erlang en funcionamiento
-
-## 7. Referencias
+## 6. Referencias
+* http://www.erlang.org/
+* http://erlang.org/doc/reference_manual/users_guide.html
+* http://erlang.org/erldoc
+* Programming Erlang. Software for a Concurrent World – Joe Amstrong
+* http://learnyousomeerlang.com
