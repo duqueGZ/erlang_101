@@ -53,11 +53,18 @@ Introducción (con ejemplos) a Erlang. Nos centraremos aquí en el subconjunto s
 * Y más...
 
 ## 5. Excepciones
-* exit / throw / erlang:error
-* try... catch
-* catch
-* mensajes de error
-* stack traces
+* Lanzar excepciones
+   * exit(Why) - Termina el proceso actual y envía el mensaje {'EXIT', Pid, Why} a todos los procesos conectados al actual.
+   * throw(Why) - Lanza una excepción que el llamador puede decidir si capturar o no.
+   * erlang:error(Why) - Errores no esperados
+* Bloques try... catch
+   * Similares a un *case*.
+   * Además, tienen una sección 'catch' donde se matchean posibles errores/excepciones producidas en el cuerpo del 'try'.
+   * Opcionalmente incluyen una sección 'after' con sentencias que se ejecutan siempre tras el 'try...catch' y cuyo valor de salida siempre se pierde.
+* Expresiones catch
+   * Obtienen una tupla con la descripción del error/excepción que se produzca en ellas.
+* Stack traces
+   * La traza de un error/excepción capturado se obtiene mediante la BIF erlang:get_stacktrace().
 
 ## 6. Erlang en funcionamiento
 
