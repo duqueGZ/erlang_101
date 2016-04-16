@@ -21,21 +21,26 @@ Introducción (con ejemplos) a Erlang. Nos centraremos aquí en el subconjunto s
 ## 3. Instalación y Shell
 * Instalación: http://www.erlang.org/download.html
 * Shell
-    * expresiones aritméticas (enteros y punto flotante)
-    * variables
-    * atoms
-    * strings [en realidad son listas de enteros]
-    * tuplas
-    * listas
+    * Expresiones aritméticas (enteros y punto flotante)
+    * Variables
+    * Atoms
+    * Strings
+        * En realidad son listas de enteros
+    * Tuplas
+    * Listas
 
 ## 4. Programación Secuencial
-* módulos
-* funciones
-* funs: funciones anónimas
-* procesado de listas, lists comprehensions y lists en orden natural
-* registros
-* expresiones case/if
-* acumuladores
+* Módulos y funciones
+* Funs: funciones anónimas
+    * Las funciones que reciben funs como parámetro o devuelven funs se conocen como *funciones de alto orden*.
+* Procesado de listas, *lists comprehensions* y listas en orden natural
+    * Con la sintaxis de *lists comprehensions* podemos construir y trabajar con listas con la necesidad de menos código y un resultado final más claro.
+    * Cuando se construyen listas usando funciones *tail recursive*, el resultado final tendrá los elementos en el orden inverso al esperado. En esos casos, la forma más eficiente (y, por tanto, correcta) de reordenar la lista es usar la función *reverse* del módulo *lists* (un enfoque mucho mejor que el operador '++' sobre listas).
+* Registros
+    * En realidad son tuplas con etiquetas para cada uno de los campos.
+* Expresiones Case / If
+* Acumuladores
+    * Son la forma de poder evitar la necesidad de recorrer dos veces la misma lista para, por ejemplo, separar sus elementos en dos grupos.   
 
 ## 5. Excepciones
 * exit / throw / erlang:error
